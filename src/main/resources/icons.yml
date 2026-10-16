@@ -1,0 +1,35 @@
+# Item icons shown in front of item names (needs a Paper 1.21.9+ server AND 1.21.9+ clients).
+# No resource pack is needed - the icons come from the game's own textures.
+enabled: true
+
+# The plugin guesses each item's texture automatically: normal items use "item/<name>" and
+# blocks use "block/<name>". Some blocks have no texture with that exact name (for example
+# the crafting table). If an icon shows up as a purple/black square, add a fix here:
+#   MATERIAL: texture/path
+# Texture names can be found in the game's assets (textures/block and textures/item).
+overrides:
+  CRAFTING_TABLE: block/crafting_table_front
+  FURNACE: block/furnace_front
+  BLAST_FURNACE: block/blast_furnace_front
+  SMOKER: block/smoker_front
+  GRASS_BLOCK: block/grass_block_side
+  PODZOL: block/podzol_side
+  MYCELIUM: block/mycelium_side
+  TNT: block/tnt_side
+  BOOKSHELF: block/bookshelf
+  PUMPKIN: block/pumpkin_side
+  MELON: block/melon_side
+  HAY_BLOCK: block/hay_block_side
+  CACTUS: block/cactus_side
+  DISPENSER: block/dispenser_front
+  DROPPER: block/dropper_front
+  OBSERVER: block/observer_front
+  JUKEBOX: block/jukebox_side
+  BARREL: block/barrel_side
+  SMITHING_TABLE: block/smithing_table_front
+  FLETCHING_TABLE: block/fletching_table_front
+  LOOM: block/loom_front
+  COMPOSTER: block/composter_side
+  SNOW_BLOCK: block/snow
+  CLAY: block/clay
+  SUGAR_CANE: item/sugar_cane
